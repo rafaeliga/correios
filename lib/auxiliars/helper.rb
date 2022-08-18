@@ -65,7 +65,7 @@ class Helper < CorreiosException
     else
       days.to_i.times do
         date += 1.days
-        date += 1.days if deadline.sunday? || deadline.saturday?
+        date += 1.days if date.on_weekend?
       end
     end
     date
