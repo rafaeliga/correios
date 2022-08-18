@@ -74,6 +74,8 @@ class Helper < CorreiosException
   # Converters
 
   def string_to_bool(string)
+    return false if string.nil?
+
     string.strip == 'S'
   end
 
