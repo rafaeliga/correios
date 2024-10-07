@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
   s.files         = Dir['lib/**/*'] + %w[correios_gem.gemspec]
 
-  s.add_dependency 'activesupport', '~> 6.1',  '>= 6.1.3'
+  s.add_dependency 'activesupport', '~> 7.1',  '>= 7.1.3'
   s.add_dependency 'nokogiri',      '~> 1.13',  '>= 1.14.2'
   s.add_dependency 'savon',         '~> 2.12', '>= 2.12.0'
 
